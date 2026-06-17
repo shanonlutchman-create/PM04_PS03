@@ -1,0 +1,5 @@
+Key,Value
+InputFilePath,Input\FICA_Compliance_Data.csv
+PortalURL,https://ficaportal.mzansibank.co.za
+OutputFolder,Output\
+MaxRetries,3

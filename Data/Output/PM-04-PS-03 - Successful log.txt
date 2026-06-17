@@ -1,0 +1,2820 @@
+04/27/2026 17:37:12 => [Trace] Debug started for file: Main
+04/27/2026 17:37:13 => [Information] PM04 PS03 execution started
+{
+  "message": "PM04 PS03 execution started",
+  "level": "Information",
+  "logType": "Default",
+  "timeStamp": "17:37:13",
+  "fileName": "Main",
+  "initiatedBy": "Studio",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:13 => [Information] Config loaded - InputFilePath: Input\FICA_Compliance_Data.csv | OutputFolder: Output\ | PortalURL: https://ficaportal.mzansibank.co.za
+{
+  "message": "Config loaded - InputFilePath: Input\\FICA_Compliance_Data.csv | OutputFolder: Output\\ | PortalURL: https://ficaportal.mzansibank.co.za",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:13",
+  "fileName": "Main",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:14 => [Information] CSV loaded - Rows: 30
+{
+  "message": "CSV loaded - Rows: 30",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:14",
+  "fileName": "Main",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:14 => [Information] Process started at 2026-04-27 17:37:14. Total records: 30
+{
+  "message": "Process started at 2026-04-27 17:37:14. Total records: 30",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:14",
+  "fileName": "Main",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:14 => [Information] SA ID validation for 9107125345082: True
+{
+  "message": "SA ID validation for 9107125345082: True",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:14",
+  "fileName": "ValidateSAID",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:14 => [Information] [SIMULATED] Opening Chrome and navigating to: https://ficaportal.mzansibank.co.za
+{
+  "message": "[SIMULATED] Opening Chrome and navigating to: https://ficaportal.mzansibank.co.za",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:14",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:14 => [Information] [SIMULATED] Typing Client ID: MZBK001 into Client ID field
+{
+  "message": "[SIMULATED] Typing Client ID: MZBK001 into Client ID field",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:14",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:14 => [Information] [SIMULATED] Typing SA ID Number into SA ID field (masked for security)
+{
+  "message": "[SIMULATED] Typing SA ID Number into SA ID field (masked for security)",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:14",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:14 => [Information] [SIMULATED] Clicking Submit/Verify button
+{
+  "message": "[SIMULATED] Clicking Submit/Verify button",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:14",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:15 => [Information] [SIMULATED] Clicking Reset button to clear form
+{
+  "message": "[SIMULATED] Clicking Reset button to clear form",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:15",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:15 => [Information] SA ID validation for 8805214567087: True
+{
+  "message": "SA ID validation for 8805214567087: True",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:15",
+  "fileName": "ValidateSAID",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:15 => [Information] [SIMULATED] Opening Chrome and navigating to: https://ficaportal.mzansibank.co.za
+{
+  "message": "[SIMULATED] Opening Chrome and navigating to: https://ficaportal.mzansibank.co.za",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:15",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:15 => [Information] [SIMULATED] Typing Client ID: MZBK002 into Client ID field
+{
+  "message": "[SIMULATED] Typing Client ID: MZBK002 into Client ID field",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:15",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:15 => [Information] [SIMULATED] Typing SA ID Number into SA ID field (masked for security)
+{
+  "message": "[SIMULATED] Typing SA ID Number into SA ID field (masked for security)",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:15",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:15 => [Information] [SIMULATED] Clicking Submit/Verify button
+{
+  "message": "[SIMULATED] Clicking Submit/Verify button",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:15",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:16 => [Information] [SIMULATED] Clicking Reset button to clear form
+{
+  "message": "[SIMULATED] Clicking Reset button to clear form",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:16",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:16 => [Information] SA ID validation for 9503097654081: True
+{
+  "message": "SA ID validation for 9503097654081: True",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:16",
+  "fileName": "ValidateSAID",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:16 => [Information] [SIMULATED] Opening Chrome and navigating to: https://ficaportal.mzansibank.co.za
+{
+  "message": "[SIMULATED] Opening Chrome and navigating to: https://ficaportal.mzansibank.co.za",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:16",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:16 => [Information] [SIMULATED] Typing Client ID: MZBK003 into Client ID field
+{
+  "message": "[SIMULATED] Typing Client ID: MZBK003 into Client ID field",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:16",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:16 => [Information] [SIMULATED] Typing SA ID Number into SA ID field (masked for security)
+{
+  "message": "[SIMULATED] Typing SA ID Number into SA ID field (masked for security)",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:16",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:16 => [Information] [SIMULATED] Clicking Submit/Verify button
+{
+  "message": "[SIMULATED] Clicking Submit/Verify button",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:16",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:17 => [Information] [SIMULATED] Clicking Reset button to clear form
+{
+  "message": "[SIMULATED] Clicking Reset button to clear form",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:17",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:17 => [Information] SA ID validation for 9911018765089: True
+{
+  "message": "SA ID validation for 9911018765089: True",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:17",
+  "fileName": "ValidateSAID",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:17 => [Information] [SIMULATED] Opening Chrome and navigating to: https://ficaportal.mzansibank.co.za
+{
+  "message": "[SIMULATED] Opening Chrome and navigating to: https://ficaportal.mzansibank.co.za",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:17",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:17 => [Information] [SIMULATED] Typing Client ID: MZBK004 into Client ID field
+{
+  "message": "[SIMULATED] Typing Client ID: MZBK004 into Client ID field",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:17",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:17 => [Information] [SIMULATED] Typing SA ID Number into SA ID field (masked for security)
+{
+  "message": "[SIMULATED] Typing SA ID Number into SA ID field (masked for security)",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:17",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:17 => [Information] [SIMULATED] Clicking Submit/Verify button
+{
+  "message": "[SIMULATED] Clicking Submit/Verify button",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:17",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:18 => [Information] [SIMULATED] Clicking Reset button to clear form
+{
+  "message": "[SIMULATED] Clicking Reset button to clear form",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:18",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:18 => [Information] SA ID validation for 109153456083: False
+{
+  "message": "SA ID validation for 109153456083: False",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:18",
+  "fileName": "ValidateSAID",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:18 => [Information] SA ID validation for 8910119876084: True
+{
+  "message": "SA ID validation for 8910119876084: True",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:18",
+  "fileName": "ValidateSAID",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:18 => [Information] [SIMULATED] Opening Chrome and navigating to: https://ficaportal.mzansibank.co.za
+{
+  "message": "[SIMULATED] Opening Chrome and navigating to: https://ficaportal.mzansibank.co.za",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:18",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:18 => [Information] [SIMULATED] Typing Client ID: MZBK006 into Client ID field
+{
+  "message": "[SIMULATED] Typing Client ID: MZBK006 into Client ID field",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:18",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:18 => [Information] [SIMULATED] Typing SA ID Number into SA ID field (masked for security)
+{
+  "message": "[SIMULATED] Typing SA ID Number into SA ID field (masked for security)",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:18",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:18 => [Information] [SIMULATED] Clicking Submit/Verify button
+{
+  "message": "[SIMULATED] Clicking Submit/Verify button",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:18",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:19 => [Information] [SIMULATED] Clicking Reset button to clear form
+{
+  "message": "[SIMULATED] Clicking Reset button to clear form",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:19",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:19 => [Information] SA ID validation for 9302251234086: True
+{
+  "message": "SA ID validation for 9302251234086: True",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:19",
+  "fileName": "ValidateSAID",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:19 => [Information] [SIMULATED] Opening Chrome and navigating to: https://ficaportal.mzansibank.co.za
+{
+  "message": "[SIMULATED] Opening Chrome and navigating to: https://ficaportal.mzansibank.co.za",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:19",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:19 => [Information] [SIMULATED] Typing Client ID: MZBK007 into Client ID field
+{
+  "message": "[SIMULATED] Typing Client ID: MZBK007 into Client ID field",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:19",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:19 => [Information] [SIMULATED] Typing SA ID Number into SA ID field (masked for security)
+{
+  "message": "[SIMULATED] Typing SA ID Number into SA ID field (masked for security)",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:19",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:19 => [Information] [SIMULATED] Clicking Submit/Verify button
+{
+  "message": "[SIMULATED] Clicking Submit/Verify button",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:19",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:20 => [Information] [SIMULATED] Clicking Reset button to clear form
+{
+  "message": "[SIMULATED] Clicking Reset button to clear form",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:20",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:20 => [Information] SA ID validation for 9706186543085: True
+{
+  "message": "SA ID validation for 9706186543085: True",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:20",
+  "fileName": "ValidateSAID",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:20 => [Information] [SIMULATED] Opening Chrome and navigating to: https://ficaportal.mzansibank.co.za
+{
+  "message": "[SIMULATED] Opening Chrome and navigating to: https://ficaportal.mzansibank.co.za",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:20",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:20 => [Information] [SIMULATED] Typing Client ID: MZBK008 into Client ID field
+{
+  "message": "[SIMULATED] Typing Client ID: MZBK008 into Client ID field",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:20",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:20 => [Information] [SIMULATED] Typing SA ID Number into SA ID field (masked for security)
+{
+  "message": "[SIMULATED] Typing SA ID Number into SA ID field (masked for security)",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:20",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:20 => [Information] [SIMULATED] Clicking Submit/Verify button
+{
+  "message": "[SIMULATED] Clicking Submit/Verify button",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:20",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:21 => [Information] [SIMULATED] Clicking Reset button to clear form
+{
+  "message": "[SIMULATED] Clicking Reset button to clear form",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:21",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:21 => [Information] SA ID validation for 9401292345088: True
+{
+  "message": "SA ID validation for 9401292345088: True",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:21",
+  "fileName": "ValidateSAID",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:21 => [Information] [SIMULATED] Opening Chrome and navigating to: https://ficaportal.mzansibank.co.za
+{
+  "message": "[SIMULATED] Opening Chrome and navigating to: https://ficaportal.mzansibank.co.za",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:21",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:21 => [Information] [SIMULATED] Typing Client ID: MZBK009 into Client ID field
+{
+  "message": "[SIMULATED] Typing Client ID: MZBK009 into Client ID field",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:21",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:21 => [Information] [SIMULATED] Typing SA ID Number into SA ID field (masked for security)
+{
+  "message": "[SIMULATED] Typing SA ID Number into SA ID field (masked for security)",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:21",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:21 => [Information] [SIMULATED] Clicking Submit/Verify button
+{
+  "message": "[SIMULATED] Clicking Submit/Verify button",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:21",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:22 => [Information] [SIMULATED] Clicking Reset button to clear form
+{
+  "message": "[SIMULATED] Clicking Reset button to clear form",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:22",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:22 => [Information] SA ID validation for 8704075678080: True
+{
+  "message": "SA ID validation for 8704075678080: True",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:22",
+  "fileName": "ValidateSAID",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:22 => [Information] [SIMULATED] Opening Chrome and navigating to: https://ficaportal.mzansibank.co.za
+{
+  "message": "[SIMULATED] Opening Chrome and navigating to: https://ficaportal.mzansibank.co.za",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:22",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:22 => [Information] [SIMULATED] Typing Client ID: MZBK010 into Client ID field
+{
+  "message": "[SIMULATED] Typing Client ID: MZBK010 into Client ID field",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:22",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:22 => [Information] [SIMULATED] Typing SA ID Number into SA ID field (masked for security)
+{
+  "message": "[SIMULATED] Typing SA ID Number into SA ID field (masked for security)",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:22",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:22 => [Information] [SIMULATED] Clicking Submit/Verify button
+{
+  "message": "[SIMULATED] Clicking Submit/Verify button",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:22",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:23 => [Information] [SIMULATED] Clicking Reset button to clear form
+{
+  "message": "[SIMULATED] Clicking Reset button to clear form",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:23",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:23 => [Information] SA ID validation for 8607133456082: True
+{
+  "message": "SA ID validation for 8607133456082: True",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:23",
+  "fileName": "ValidateSAID",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:23 => [Information] [SIMULATED] Opening Chrome and navigating to: https://ficaportal.mzansibank.co.za
+{
+  "message": "[SIMULATED] Opening Chrome and navigating to: https://ficaportal.mzansibank.co.za",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:23",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:23 => [Information] [SIMULATED] Typing Client ID: MZBK011 into Client ID field
+{
+  "message": "[SIMULATED] Typing Client ID: MZBK011 into Client ID field",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:23",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:23 => [Information] [SIMULATED] Typing SA ID Number into SA ID field (masked for security)
+{
+  "message": "[SIMULATED] Typing SA ID Number into SA ID field (masked for security)",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:23",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:23 => [Information] [SIMULATED] Clicking Submit/Verify button
+{
+  "message": "[SIMULATED] Clicking Submit/Verify button",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:23",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:24 => [Information] [SIMULATED] Clicking Reset button to clear form
+{
+  "message": "[SIMULATED] Clicking Reset button to clear form",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:24",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:24 => [Information] SA ID validation for 9204207890081: True
+{
+  "message": "SA ID validation for 9204207890081: True",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:24",
+  "fileName": "ValidateSAID",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:24 => [Information] [SIMULATED] Opening Chrome and navigating to: https://ficaportal.mzansibank.co.za
+{
+  "message": "[SIMULATED] Opening Chrome and navigating to: https://ficaportal.mzansibank.co.za",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:24",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:24 => [Information] [SIMULATED] Typing Client ID: MZBK012 into Client ID field
+{
+  "message": "[SIMULATED] Typing Client ID: MZBK012 into Client ID field",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:24",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:24 => [Information] [SIMULATED] Typing SA ID Number into SA ID field (masked for security)
+{
+  "message": "[SIMULATED] Typing SA ID Number into SA ID field (masked for security)",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:24",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:24 => [Information] [SIMULATED] Clicking Submit/Verify button
+{
+  "message": "[SIMULATED] Clicking Submit/Verify button",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:24",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:25 => [Information] [SIMULATED] Clicking Reset button to clear form
+{
+  "message": "[SIMULATED] Clicking Reset button to clear form",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:25",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:25 => [Information] SA ID validation for 9812039012089: True
+{
+  "message": "SA ID validation for 9812039012089: True",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:25",
+  "fileName": "ValidateSAID",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:25 => [Information] [SIMULATED] Opening Chrome and navigating to: https://ficaportal.mzansibank.co.za
+{
+  "message": "[SIMULATED] Opening Chrome and navigating to: https://ficaportal.mzansibank.co.za",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:25",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:25 => [Information] [SIMULATED] Typing Client ID: MZBK013 into Client ID field
+{
+  "message": "[SIMULATED] Typing Client ID: MZBK013 into Client ID field",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:25",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:25 => [Information] [SIMULATED] Typing SA ID Number into SA ID field (masked for security)
+{
+  "message": "[SIMULATED] Typing SA ID Number into SA ID field (masked for security)",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:25",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:25 => [Information] [SIMULATED] Clicking Submit/Verify button
+{
+  "message": "[SIMULATED] Clicking Submit/Verify button",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:25",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:26 => [Information] [SIMULATED] Clicking Reset button to clear form
+{
+  "message": "[SIMULATED] Clicking Reset button to clear form",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:26",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:26 => [Information] SA ID validation for 8502181234087: True
+{
+  "message": "SA ID validation for 8502181234087: True",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:26",
+  "fileName": "ValidateSAID",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:26 => [Information] [SIMULATED] Opening Chrome and navigating to: https://ficaportal.mzansibank.co.za
+{
+  "message": "[SIMULATED] Opening Chrome and navigating to: https://ficaportal.mzansibank.co.za",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:26",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:26 => [Information] [SIMULATED] Typing Client ID: MZBK014 into Client ID field
+{
+  "message": "[SIMULATED] Typing Client ID: MZBK014 into Client ID field",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:26",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:26 => [Information] [SIMULATED] Typing SA ID Number into SA ID field (masked for security)
+{
+  "message": "[SIMULATED] Typing SA ID Number into SA ID field (masked for security)",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:26",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:26 => [Information] [SIMULATED] Clicking Submit/Verify button
+{
+  "message": "[SIMULATED] Clicking Submit/Verify button",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:26",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:27 => [Information] [SIMULATED] Clicking Reset button to clear form
+{
+  "message": "[SIMULATED] Clicking Reset button to clear form",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:27",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:27 => [Information] SA ID validation for 9608226543082: True
+{
+  "message": "SA ID validation for 9608226543082: True",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:27",
+  "fileName": "ValidateSAID",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:27 => [Information] [SIMULATED] Opening Chrome and navigating to: https://ficaportal.mzansibank.co.za
+{
+  "message": "[SIMULATED] Opening Chrome and navigating to: https://ficaportal.mzansibank.co.za",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:27",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:27 => [Information] [SIMULATED] Typing Client ID: MZBK015 into Client ID field
+{
+  "message": "[SIMULATED] Typing Client ID: MZBK015 into Client ID field",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:27",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:27 => [Information] [SIMULATED] Typing SA ID Number into SA ID field (masked for security)
+{
+  "message": "[SIMULATED] Typing SA ID Number into SA ID field (masked for security)",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:27",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:27 => [Information] [SIMULATED] Clicking Submit/Verify button
+{
+  "message": "[SIMULATED] Clicking Submit/Verify button",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:27",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:28 => [Information] [SIMULATED] Clicking Reset button to clear form
+{
+  "message": "[SIMULATED] Clicking Reset button to clear form",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:28",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:28 => [Information] SA ID validation for 8904051234081: True
+{
+  "message": "SA ID validation for 8904051234081: True",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:28",
+  "fileName": "ValidateSAID",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:28 => [Information] [SIMULATED] Opening Chrome and navigating to: https://ficaportal.mzansibank.co.za
+{
+  "message": "[SIMULATED] Opening Chrome and navigating to: https://ficaportal.mzansibank.co.za",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:28",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:28 => [Information] [SIMULATED] Typing Client ID: MZBK016 into Client ID field
+{
+  "message": "[SIMULATED] Typing Client ID: MZBK016 into Client ID field",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:28",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:28 => [Information] [SIMULATED] Typing SA ID Number into SA ID field (masked for security)
+{
+  "message": "[SIMULATED] Typing SA ID Number into SA ID field (masked for security)",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:28",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:28 => [Information] [SIMULATED] Clicking Submit/Verify button
+{
+  "message": "[SIMULATED] Clicking Submit/Verify button",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:28",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:29 => [Information] [SIMULATED] Clicking Reset button to clear form
+{
+  "message": "[SIMULATED] Clicking Reset button to clear form",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:29",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:29 => [Information] SA ID validation for 9311186789083: True
+{
+  "message": "SA ID validation for 9311186789083: True",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:29",
+  "fileName": "ValidateSAID",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:29 => [Information] [SIMULATED] Opening Chrome and navigating to: https://ficaportal.mzansibank.co.za
+{
+  "message": "[SIMULATED] Opening Chrome and navigating to: https://ficaportal.mzansibank.co.za",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:29",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:29 => [Information] [SIMULATED] Typing Client ID: MZBK017 into Client ID field
+{
+  "message": "[SIMULATED] Typing Client ID: MZBK017 into Client ID field",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:29",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:29 => [Information] [SIMULATED] Typing SA ID Number into SA ID field (masked for security)
+{
+  "message": "[SIMULATED] Typing SA ID Number into SA ID field (masked for security)",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:29",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:29 => [Information] [SIMULATED] Clicking Submit/Verify button
+{
+  "message": "[SIMULATED] Clicking Submit/Verify button",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:29",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:30 => [Information] [SIMULATED] Clicking Reset button to clear form
+{
+  "message": "[SIMULATED] Clicking Reset button to clear form",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:30",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:30 => [Information] SA ID validation for 9403212345087: True
+{
+  "message": "SA ID validation for 9403212345087: True",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:30",
+  "fileName": "ValidateSAID",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:30 => [Information] [SIMULATED] Opening Chrome and navigating to: https://ficaportal.mzansibank.co.za
+{
+  "message": "[SIMULATED] Opening Chrome and navigating to: https://ficaportal.mzansibank.co.za",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:30",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:30 => [Information] [SIMULATED] Typing Client ID: MZBK018 into Client ID field
+{
+  "message": "[SIMULATED] Typing Client ID: MZBK018 into Client ID field",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:30",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:30 => [Information] [SIMULATED] Typing SA ID Number into SA ID field (masked for security)
+{
+  "message": "[SIMULATED] Typing SA ID Number into SA ID field (masked for security)",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:30",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:30 => [Information] [SIMULATED] Clicking Submit/Verify button
+{
+  "message": "[SIMULATED] Clicking Submit/Verify button",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:30",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:31 => [Information] [SIMULATED] Clicking Reset button to clear form
+{
+  "message": "[SIMULATED] Clicking Reset button to clear form",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:31",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:31 => [Information] SA ID validation for 5085678082: False
+{
+  "message": "SA ID validation for 5085678082: False",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:31",
+  "fileName": "ValidateSAID",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:31 => [Information] SA ID validation for 9709239012083: True
+{
+  "message": "SA ID validation for 9709239012083: True",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:31",
+  "fileName": "ValidateSAID",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:31 => [Information] [SIMULATED] Opening Chrome and navigating to: https://ficaportal.mzansibank.co.za
+{
+  "message": "[SIMULATED] Opening Chrome and navigating to: https://ficaportal.mzansibank.co.za",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:31",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:31 => [Information] [SIMULATED] Typing Client ID: MZBK020 into Client ID field
+{
+  "message": "[SIMULATED] Typing Client ID: MZBK020 into Client ID field",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:31",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:31 => [Information] [SIMULATED] Typing SA ID Number into SA ID field (masked for security)
+{
+  "message": "[SIMULATED] Typing SA ID Number into SA ID field (masked for security)",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:31",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:31 => [Information] [SIMULATED] Clicking Submit/Verify button
+{
+  "message": "[SIMULATED] Clicking Submit/Verify button",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:31",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:32 => [Information] [SIMULATED] Clicking Reset button to clear form
+{
+  "message": "[SIMULATED] Clicking Reset button to clear form",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:32",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:32 => [Information] SA ID validation for 9810156789081: True
+{
+  "message": "SA ID validation for 9810156789081: True",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:32",
+  "fileName": "ValidateSAID",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:32 => [Information] [SIMULATED] Opening Chrome and navigating to: https://ficaportal.mzansibank.co.za
+{
+  "message": "[SIMULATED] Opening Chrome and navigating to: https://ficaportal.mzansibank.co.za",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:32",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:32 => [Information] [SIMULATED] Typing Client ID: MZBK021 into Client ID field
+{
+  "message": "[SIMULATED] Typing Client ID: MZBK021 into Client ID field",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:32",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:32 => [Information] [SIMULATED] Typing SA ID Number into SA ID field (masked for security)
+{
+  "message": "[SIMULATED] Typing SA ID Number into SA ID field (masked for security)",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:32",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:32 => [Information] [SIMULATED] Clicking Submit/Verify button
+{
+  "message": "[SIMULATED] Clicking Submit/Verify button",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:32",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:34 => [Information] [SIMULATED] Clicking Reset button to clear form
+{
+  "message": "[SIMULATED] Clicking Reset button to clear form",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:34",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:34 => [Information] SA ID validation for 9002283456089: True
+{
+  "message": "SA ID validation for 9002283456089: True",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:34",
+  "fileName": "ValidateSAID",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:34 => [Information] [SIMULATED] Opening Chrome and navigating to: https://ficaportal.mzansibank.co.za
+{
+  "message": "[SIMULATED] Opening Chrome and navigating to: https://ficaportal.mzansibank.co.za",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:34",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:34 => [Information] [SIMULATED] Typing Client ID: MZBK022 into Client ID field
+{
+  "message": "[SIMULATED] Typing Client ID: MZBK022 into Client ID field",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:34",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:34 => [Information] [SIMULATED] Typing SA ID Number into SA ID field (masked for security)
+{
+  "message": "[SIMULATED] Typing SA ID Number into SA ID field (masked for security)",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:34",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:34 => [Information] [SIMULATED] Clicking Submit/Verify button
+{
+  "message": "[SIMULATED] Clicking Submit/Verify button",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:34",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:35 => [Information] [SIMULATED] Clicking Reset button to clear form
+{
+  "message": "[SIMULATED] Clicking Reset button to clear form",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:35",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:35 => [Information] SA ID validation for 9506195678084: True
+{
+  "message": "SA ID validation for 9506195678084: True",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:35",
+  "fileName": "ValidateSAID",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:35 => [Information] [SIMULATED] Opening Chrome and navigating to: https://ficaportal.mzansibank.co.za
+{
+  "message": "[SIMULATED] Opening Chrome and navigating to: https://ficaportal.mzansibank.co.za",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:35",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:35 => [Information] [SIMULATED] Typing Client ID: MZBK023 into Client ID field
+{
+  "message": "[SIMULATED] Typing Client ID: MZBK023 into Client ID field",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:35",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:35 => [Information] [SIMULATED] Typing SA ID Number into SA ID field (masked for security)
+{
+  "message": "[SIMULATED] Typing SA ID Number into SA ID field (masked for security)",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:35",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:35 => [Information] [SIMULATED] Clicking Submit/Verify button
+{
+  "message": "[SIMULATED] Clicking Submit/Verify button",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:35",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:36 => [Information] [SIMULATED] Clicking Reset button to clear form
+{
+  "message": "[SIMULATED] Clicking Reset button to clear form",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:36",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:36 => [Information] SA ID validation for 9908111234085: True
+{
+  "message": "SA ID validation for 9908111234085: True",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:36",
+  "fileName": "ValidateSAID",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:36 => [Information] [SIMULATED] Opening Chrome and navigating to: https://ficaportal.mzansibank.co.za
+{
+  "message": "[SIMULATED] Opening Chrome and navigating to: https://ficaportal.mzansibank.co.za",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:36",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:36 => [Information] [SIMULATED] Typing Client ID: MZBK024 into Client ID field
+{
+  "message": "[SIMULATED] Typing Client ID: MZBK024 into Client ID field",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:36",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:36 => [Information] [SIMULATED] Typing SA ID Number into SA ID field (masked for security)
+{
+  "message": "[SIMULATED] Typing SA ID Number into SA ID field (masked for security)",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:36",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:36 => [Information] [SIMULATED] Clicking Submit/Verify button
+{
+  "message": "[SIMULATED] Clicking Submit/Verify button",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:36",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:37 => [Information] [SIMULATED] Clicking Reset button to clear form
+{
+  "message": "[SIMULATED] Clicking Reset button to clear form",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:37",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:37 => [Information] SA ID validation for 9201268765086: True
+{
+  "message": "SA ID validation for 9201268765086: True",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:37",
+  "fileName": "ValidateSAID",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:37 => [Information] [SIMULATED] Opening Chrome and navigating to: https://ficaportal.mzansibank.co.za
+{
+  "message": "[SIMULATED] Opening Chrome and navigating to: https://ficaportal.mzansibank.co.za",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:37",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:37 => [Information] [SIMULATED] Typing Client ID: MZBK025 into Client ID field
+{
+  "message": "[SIMULATED] Typing Client ID: MZBK025 into Client ID field",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:37",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:37 => [Information] [SIMULATED] Typing SA ID Number into SA ID field (masked for security)
+{
+  "message": "[SIMULATED] Typing SA ID Number into SA ID field (masked for security)",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:37",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:37 => [Information] [SIMULATED] Clicking Submit/Verify button
+{
+  "message": "[SIMULATED] Clicking Submit/Verify button",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:37",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:38 => [Information] [SIMULATED] Clicking Reset button to clear form
+{
+  "message": "[SIMULATED] Clicking Reset button to clear form",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:38",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:38 => [Information] SA ID validation for 9105194321087: True
+{
+  "message": "SA ID validation for 9105194321087: True",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:38",
+  "fileName": "ValidateSAID",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:38 => [Information] [SIMULATED] Opening Chrome and navigating to: https://ficaportal.mzansibank.co.za
+{
+  "message": "[SIMULATED] Opening Chrome and navigating to: https://ficaportal.mzansibank.co.za",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:38",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:38 => [Information] [SIMULATED] Typing Client ID: MZBK026 into Client ID field
+{
+  "message": "[SIMULATED] Typing Client ID: MZBK026 into Client ID field",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:38",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:38 => [Information] [SIMULATED] Typing SA ID Number into SA ID field (masked for security)
+{
+  "message": "[SIMULATED] Typing SA ID Number into SA ID field (masked for security)",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:38",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:38 => [Information] [SIMULATED] Clicking Submit/Verify button
+{
+  "message": "[SIMULATED] Clicking Submit/Verify button",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:38",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:39 => [Information] [SIMULATED] Clicking Reset button to clear form
+{
+  "message": "[SIMULATED] Clicking Reset button to clear form",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:39",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:39 => [Information] SA ID validation for 9803148901083: True
+{
+  "message": "SA ID validation for 9803148901083: True",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:39",
+  "fileName": "ValidateSAID",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:39 => [Information] [SIMULATED] Opening Chrome and navigating to: https://ficaportal.mzansibank.co.za
+{
+  "message": "[SIMULATED] Opening Chrome and navigating to: https://ficaportal.mzansibank.co.za",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:39",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:39 => [Information] [SIMULATED] Typing Client ID: MZBK027 into Client ID field
+{
+  "message": "[SIMULATED] Typing Client ID: MZBK027 into Client ID field",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:39",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:39 => [Information] [SIMULATED] Typing SA ID Number into SA ID field (masked for security)
+{
+  "message": "[SIMULATED] Typing SA ID Number into SA ID field (masked for security)",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:39",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:39 => [Information] [SIMULATED] Clicking Submit/Verify button
+{
+  "message": "[SIMULATED] Clicking Submit/Verify button",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:39",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:40 => [Information] [SIMULATED] Clicking Reset button to clear form
+{
+  "message": "[SIMULATED] Clicking Reset button to clear form",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:40",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:40 => [Information] SA ID validation for 8706275432085: True
+{
+  "message": "SA ID validation for 8706275432085: True",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:40",
+  "fileName": "ValidateSAID",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:40 => [Information] [SIMULATED] Opening Chrome and navigating to: https://ficaportal.mzansibank.co.za
+{
+  "message": "[SIMULATED] Opening Chrome and navigating to: https://ficaportal.mzansibank.co.za",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:40",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:40 => [Information] [SIMULATED] Typing Client ID: MZBK028 into Client ID field
+{
+  "message": "[SIMULATED] Typing Client ID: MZBK028 into Client ID field",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:40",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:40 => [Information] [SIMULATED] Typing SA ID Number into SA ID field (masked for security)
+{
+  "message": "[SIMULATED] Typing SA ID Number into SA ID field (masked for security)",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:40",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:40 => [Information] [SIMULATED] Clicking Submit/Verify button
+{
+  "message": "[SIMULATED] Clicking Submit/Verify button",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:40",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:41 => [Information] [SIMULATED] Clicking Reset button to clear form
+{
+  "message": "[SIMULATED] Clicking Reset button to clear form",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:41",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:41 => [Information] SA ID validation for 9409101234089: True
+{
+  "message": "SA ID validation for 9409101234089: True",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:41",
+  "fileName": "ValidateSAID",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:41 => [Information] [SIMULATED] Opening Chrome and navigating to: https://ficaportal.mzansibank.co.za
+{
+  "message": "[SIMULATED] Opening Chrome and navigating to: https://ficaportal.mzansibank.co.za",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:41",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:41 => [Information] [SIMULATED] Typing Client ID: MZBK029 into Client ID field
+{
+  "message": "[SIMULATED] Typing Client ID: MZBK029 into Client ID field",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:41",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:41 => [Information] [SIMULATED] Typing SA ID Number into SA ID field (masked for security)
+{
+  "message": "[SIMULATED] Typing SA ID Number into SA ID field (masked for security)",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:41",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:41 => [Information] [SIMULATED] Clicking Submit/Verify button
+{
+  "message": "[SIMULATED] Clicking Submit/Verify button",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:41",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:42 => [Information] [SIMULATED] Clicking Reset button to clear form
+{
+  "message": "[SIMULATED] Clicking Reset button to clear form",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:42",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:42 => [Information] SA ID validation for 9611256789082: True
+{
+  "message": "SA ID validation for 9611256789082: True",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:42",
+  "fileName": "ValidateSAID",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:42 => [Information] [SIMULATED] Opening Chrome and navigating to: https://ficaportal.mzansibank.co.za
+{
+  "message": "[SIMULATED] Opening Chrome and navigating to: https://ficaportal.mzansibank.co.za",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:42",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:42 => [Information] [SIMULATED] Typing Client ID: MZBK030 into Client ID field
+{
+  "message": "[SIMULATED] Typing Client ID: MZBK030 into Client ID field",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:42",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:42 => [Information] [SIMULATED] Typing SA ID Number into SA ID field (masked for security)
+{
+  "message": "[SIMULATED] Typing SA ID Number into SA ID field (masked for security)",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:42",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:42 => [Information] [SIMULATED] Clicking Submit/Verify button
+{
+  "message": "[SIMULATED] Clicking Submit/Verify button",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:42",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:43 => [Information] [SIMULATED] Clicking Reset button to clear form
+{
+  "message": "[SIMULATED] Clicking Reset button to clear form",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:43",
+  "fileName": "ProcessClient",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:43 => [Information] Process completed. Success: 28 | Errors: 2
+{
+  "message": "Process completed. Success: 28 | Errors: 2",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "17:37:43",
+  "fileName": "Main",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}
+04/27/2026 17:37:43 => [Information] PM04 PS03 execution ended in: 00:00:30
+{
+  "message": "PM04 PS03 execution ended",
+  "level": "Information",
+  "logType": "Default",
+  "timeStamp": "17:37:43",
+  "fileName": "Main",
+  "totalExecutionTimeInSeconds": 30,
+  "totalExecutionTime": "00:00:30",
+  "jobId": "7640bfaa-1864-46a2-bd75-3ac5768e6e34",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.192-cloud.22823",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "1586c762074945e880a441d9c122b308-fc44049109b943dba38057e2c62b789a"
+}

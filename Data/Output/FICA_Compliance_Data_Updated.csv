@@ -1,0 +1,31 @@
+Client_ID,Full_Name,SA_ID_Number,FICA_Status
+MZBK001,Lerato Dlamini,9107125345082,Compliant
+MZBK002,Sipho Nkosi,8805214567087,Non-Compliant
+MZBK003,Palesa Khumalo,9503097654081,Compliant
+MZBK004,Thabo Mkhize,9911018765089,Pending Review
+MZBK005,Zandile Ndlovu,109153456083,Invalid_ID
+MZBK006,Kwame Abrahams,8910119876084,Compliant
+MZBK007,Nomusa Zulu,9302251234086,Compliant
+MZBK008,Tumi Moeketsi,9706186543085,Compliant
+MZBK009,Bongani Sibiya,9401292345088,Non-Compliant
+MZBK010,Ayanda Vilakazi,8704075678080,Compliant
+MZBK011,Sipho Buthelezi,8607133456082,Compliant
+MZBK012,Lindiwe Dlomo,9204207890081,Compliant
+MZBK013,Themba Dube,9812039012089,Pending Review
+MZBK014,Nonhlanhla Gumede,8502181234087,Non-Compliant
+MZBK015,Nkosi Zondi,9608226543082,Compliant
+MZBK016,Thandiwe Moloi,8904051234081,Compliant
+MZBK017,Zodwa Mabena,9311186789083,Compliant
+MZBK018,Sipho Buthelezi,9403212345087,Non-Compliant
+MZBK019,Karabo Molefe,5085678082,Invalid_ID
+MZBK020,Nokulunga Ndlovu,9709239012083,Compliant
+MZBK021,Bheki Nkomo,9810156789081,Compliant
+MZBK022,Ntombi Zwane,9002283456089,Pending Review
+MZBK023,Siyabonga Mabuza,9506195678084,Compliant
+MZBK024,Thabo Dlamini,9908111234085,Compliant
+MZBK025,Naledi Khoza,9201268765086,Compliant
+MZBK026,Thabo Mokoena,9105194321087,Non-Compliant
+MZBK027,Sabelo Ngubane,9803148901083,Compliant
+MZBK028,Lebo Masilela,8706275432085,Compliant
+MZBK029,Sipho Hlongwane,9409101234089,Pending Review
+MZBK030,Nomzamo Mthimkhulu,9611256789082,Compliant
