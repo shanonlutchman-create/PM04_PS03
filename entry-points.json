@@ -5,6 +5,53 @@
       "filePath": "Main.xaml",
       "uniqueId": "19191d24-584c-4d0f-accd-a3b8b24296d3",
       "type": "process"
+    },
+    {
+      "filePath": "Workflows\\GenerateSummaryReport.xaml",
+      "uniqueId": "2f231efe-fceb-4698-8bf7-1f5f710db2df",
+      "type": "process",
+      "input": {
+        "type": "object",
+        "properties": {
+          "UiPathEventConnector": {
+            "type": "string"
+          },
+          "UiPathEvent": {
+            "type": "string"
+          },
+          "UiPathEventObjectType": {
+            "type": "string"
+          },
+          "UiPathEventObjectId": {
+            "type": "string"
+          },
+          "UiPathAdditionalEventData": {
+            "type": "string"
+          },
+          "in_SuccessCount": {
+            "type": "integer",
+            "minimum": -2147483648,
+            "maximum": 2147483647
+          },
+          "in_ErrorCount": {
+            "type": "integer",
+            "minimum": -2147483648,
+            "maximum": 2147483647
+          },
+          "in_TotalCount": {
+            "type": "integer",
+            "minimum": -2147483648,
+            "maximum": 2147483647
+          },
+          "in_OutputFolder": {
+            "type": "string"
+          },
+          "in_RunStartTime": {
+            "type": "string"
+          }
+        },
+        "required": []
+      }
     }
   ]
 }

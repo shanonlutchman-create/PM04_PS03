@@ -49,6 +49,12 @@
       "uniqueId": "19191d24-584c-4d0f-accd-a3b8b24296d3",
       "input": [],
       "output": []
+    },
+    {
+      "filePath": "Workflows\\GenerateSummaryReport.xaml",
+      "uniqueId": "2f231efe-fceb-4698-8bf7-1f5f710db2df",
+      "input": [],
+      "output": []
     }
   ],
   "isTemplate": false,
